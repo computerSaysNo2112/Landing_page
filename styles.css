@@ -1,0 +1,263 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    background-image: url(/Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: papayawhip ;
+}
+
+a:hover{
+    color: peachpuff;
+    font-weight: bold;
+    text-shadow: 4px 3px 2px black;
+}
+
+/* header */
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(38,24,20,1) 2%, rgba(55,28,21,1) 58%, rgba(122,17,17,1) 99%);
+    padding:20px;
+    border-bottom: 1px solid papayawhip;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+
+.icon{
+    width:4vw;
+    height:auto;
+    min-width: 40px;
+    border-radius: 50%;
+    background-color: bisque;    
+}
+
+
+.iconText{
+    font-size:36px;
+    margin:0;
+    color:peachpuff;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+.menubar{
+    display: flex;
+    align-items: center;
+    font-size:25px;
+    font-weight: 300;
+    margin-right:4%;
+
+}
+
+.menu{
+    color: peachpuff;
+}
+
+ul{
+    list-style: none;
+    gap:106px;
+}
+
+li{
+    width:10vw;
+}
+
+/* Intro */
+.intro{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 3%;
+    gap:9%;
+    background: linear-gradient(90deg, rgba(38,24,20,1) 2%, rgba(55,28,21,1) 58%, rgba(122,17,17,1) 99%);
+    color: papayawhip;
+    font-size: larger;
+    line-height: 190%;
+}
+
+
+.butcherphoto{
+    width: 25%;
+    height: auto;
+    border: 1px solid rgba(255, 253, 253, 0.572);
+    border-radius: 5%;
+    box-shadow: 5px 4px #1b1b1b6c;
+    
+}
+
+.container1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button-40 {
+  background-color: papayawhip;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #090808;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+  color:white;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
+
+/* Cards section */
+.mid{
+    padding:2%;
+} 
+
+.midtext{
+    display: flex;
+    justify-content: center;
+    color: papayawhip;
+    margin-bottom: 5%;
+    font-size: 90px;
+}
+
+.cardbox{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+}
+
+
+.group{
+    display: flex;
+    flex-direction: column;
+    max-width: 30vh;
+    background-color: rgba(69, 71, 69, 0.508);
+
+}
+
+.img1, .img2, .img3{
+    border: 1px solid rgba(255, 253, 253, 0.572);
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: auto;
+    margin:0;
+    height: 100%;
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: wheat;
+}
+
+
+
+/* Quote */
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip;
+    align-items: center;
+    justify-content: center;
+    padding:2%;
+}
+
+.section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigtext{
+    font-size:24px;
+    font-style: italic;
+
+}
+.name{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* calltoaction  */
+
+.callToAction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: peachpuff;
+    padding:4%;
+}
+
+.signup{
+    background: linear-gradient(90deg, rgba(38,24,20,1) 2%, rgba(55,28,21,1) 58%, rgba(122,17,17,1) 99%);
+    color:peachpuff;
+    border:2px solid white;
+    border-radius: 25px;
+    padding:2%;
+    display: flex;
+    gap:5%;
+    border:5px solid white;
+}
+
+.butt{
+    width: 20%;
+    align-self:center;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: palegoldenrod;
+    font-weight: bold;
+    border:1px solid rgb(4, 3, 3);
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+footer{
+    background: linear-gradient(90deg, rgba(38,24,20,1) 2%, rgba(55,28,21,1) 58%, rgba(122,17,17,1) 99%);
+    color:white;
+    text-align: center;
+
+}
+

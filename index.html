@@ -5,40 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
     <div class="nav">
-        <img src="/Images/logo.png" alt="" class="logo">
+        <div class="logo">
+            <img src="/Images/logo.png" alt="" id="rot" class="icon">
+            <p class="iconText">Cute meat</p>
+        </div>
+
         <ul class="menubar">
-            <li class="menu">header link one</li>
-            <li class="menu">header link two</li>
-            <li class="menu">header link three</li>
+            <li class="menu"><a href="">History</a></li>
+            <li class="menu"><a href="">About</a></li>
+            <li class="menu"><a href="">Contact</a></li>
         </ul>  
     </div>
-
+    <!-- Intro  -->
     <div class="intro">
-        <h1>This Website is Awesome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel nemo deleniti dolores expedita voluptatem delectus tenetur ipsa! Fugiat magni fugit harum quae ad, veritatis voluptas soluta ratione officia nobis laboriosam inventore hic maxime dignissimos, recusandae dolorem praesentium? Dolorum numquam soluta minima beatae esse. Suscipit velit officia, ullam accusamus omnis commodi magni voluptatem inventore eligendi non assumenda beatae corrupti quibusdam fugiat fuga error perferendis! Atque commodi, molestiae ad sunt excepturi aliquid assumenda possimus reprehenderit eaque provident eveniet laborum doloremque sapiente repellendus, libero nemo, laboriosam vel qui at? Consequuntur nobis saepe eveniet enim alias obcaecati incidunt deserunt voluptatum, tenetur totam sapiente?</p>
-        <button>Sign up</button>
-        <img src="/Images/Intro foto.jpeg" alt="">
+        <div class="container1">
+            <h1>Look at zis beautiful meat, man</h1>
+            <p class="introtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquam exercitationem nobis quae porro, laboriosam obcaecati quis doloribus dicta. Est reiciendis quam itaque, eaque delectus mollitia repellat, nobis voluptatem saepe quidem aut a eveniet cumque inventore aspernatur explicabo distinctio optio modi enim. Distinctio necessitatibus labore officia nihil, magni fugit ducimus!</p>
+            <button class="button-40" role="button">Sign up</button>
+        </div>
+        <img src="/Images/pexels-saveurs-secretes-5410460.jpeg" class="butcherphoto" alt="">
     </div>
-
+    <!-- Cards section -->
     <div class="mid">
-        <h2>Some Random Information</h2>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
+        <h2 class="midtext">Look at all zis meat variety, man...</h2>    
+        <div class="cardbox">
+            <div class="group">
+                <img src="/Images/pexels-geraud-pfeiffer-6542791.jpeg" alt="" class="img1">
+                <div class="textarea">
+                    <p class="text">Hmm Good meat</p>
+                </div>
+            </div>
+            <div class="group">
+                <img src="/Images/pexels-geraud-pfeiffer-6605642.jpeg" alt="" class="img2">
+                <div class="textarea">
+                    <p class="text">Hmm Good meat</p>
+                </div>
+            </div>
+            <div class="group">
+                <img src="/Images/pexels-valeria-boltneva-7474129.jpeg" alt="" class="img3">
+                <div class="textarea">
+                    <p class="text">Hmm Good meat</p>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <!-- Quote -->
     <div class="quote">
-        <p class="bigtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, voluptate laborum. Officiis maxime, repudiandae ipsam hic eveniet vel, voluptatibus numquam cupiditate accusantium magnam delectus rem suscipit beatae. Aut porro aliquam perferendis ducimus beatae quibusdam et culpa, deleniti recusandae maxime quam quas eum magnam laborum aliquid, officia atque corporis excepturi voluptatem tempore eveniet accusantium? Facilis saepe numquam dolore error esse reiciendis libero, distinctio iste eligendi blanditiis a minus earum voluptate, sunt optio culpa atque aspernatur nobis.</p>
-        <p class="name">Airport of France</p>
+        <div class="section">
+            <p class="bigtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, voluptate laborum. Officiis maxime, repudiandae ipsam hic eveniet vel, voluptatibus numquam cupiditate accusantium magnam delectus rem suscipit beatae. Aut porro aliquam perferendis ducimus beatae quibusdam et culpa, deleniti recusandae maxime quam quas eum magnam.</p>
+            <p class="name">- Airport of France</p>
+        </div>
+
     </div>
-
-
-    
+    <!-- CalltoAction -->
+    <div class="callToAction">
+        <div class="signup">
+            <div class="text2">
+                <p class="bold">Call to action! it's time</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.</p>
+            </div>
+            <button class="butt">Sign up</button>
+        </div>
+    </div>
 </body>
+    <!-- Footer -->
+<footer>
+    <p>Copyright © Cute Meats</p>
+</footer>
 </html>
